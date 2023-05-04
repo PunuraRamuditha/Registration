@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Dynamic" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="604.0" prefWidth="600.0" style="-fx-background-color: #FFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StudentRegistration">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="161.0" layoutY="6.0" prefHeight="47.0" prefWidth="294.0" style="-fx-background-color: #FFF;" text="Student Registration" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfFname" layoutX="39.0" layoutY="123.0" prefHeight="25.0" prefWidth="187.0" />
+      <Label layoutX="39.0" layoutY="90.0" prefHeight="33.0" prefWidth="313.0" style="-fx-background-color: #fff;" text="First Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="172.0" prefHeight="33.0" prefWidth="313.0" style="-fx-background-color: #fff;" text="Last Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfLname" layoutX="39.0" layoutY="205.0" prefHeight="25.0" prefWidth="187.0" />
+      <Label layoutX="39.0" layoutY="254.0" prefHeight="33.0" prefWidth="313.0" style="-fx-background-color: #fff;" text="Email">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfEmail" layoutX="39.0" layoutY="290.0" prefHeight="25.0" prefWidth="187.0" />
+      <Label layoutX="39.0" layoutY="335.0" prefHeight="33.0" prefWidth="313.0" style="-fx-background-color: #fff;" text="Contact">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfContact" layoutX="39.0" layoutY="368.0" prefHeight="25.0" prefWidth="187.0" />
+      <Button fx:id="btnSubmit" layoutX="326.0" layoutY="430.0" mnemonicParsing="false" onAction="#Submit" prefHeight="40.0" prefWidth="95.0" style="-fx-background-color: #7DC6F8;" text="Submit">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnClear" layoutX="196.0" layoutY="430.0" mnemonicParsing="false" onAction="#Clear" prefHeight="40.0" prefWidth="95.0" style="-fx-background-color: #B0F8AF;" text="Clear">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBack" layoutX="66.0" layoutY="430.0" mnemonicParsing="false" onAction="#Back" prefHeight="40.0" prefWidth="95.0" style="-fx-background-color: #F7C26A;" text="Back">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="275.0" layoutY="90.0" prefHeight="33.0" prefWidth="154.0" style="-fx-background-color: #fff;" text="Course">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="btnMaths" layoutX="279.0" layoutY="127.0" mnemonicParsing="false" onAction="#Maths" prefHeight="17.0" prefWidth="95.0" text="Maths" />
+      <CheckBox fx:id="btnICT" layoutX="279.0" layoutY="164.0" mnemonicParsing="false" onAction="#ICT" prefHeight="17.0" prefWidth="95.0" text="ICT" />
+      <CheckBox fx:id="btnEnglish" layoutX="279.0" layoutY="197.0" mnemonicParsing="false" onAction="#English" prefHeight="17.0" prefWidth="95.0" text="English" />
+      <CheckBox fx:id="btnHistory" layoutX="279.0" layoutY="230.0" mnemonicParsing="false" onAction="#History" prefHeight="17.0" prefWidth="95.0" text="History" />
+   </children>
+</AnchorPane>
